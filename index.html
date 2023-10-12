@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title> Priyank'sPortfolio</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <main class='main'>
+      <nav class='navBar'>
+        <h1>Priyank Kulkarni Portfolio</h1>
+        <div class='navigationMenu'>
+          <a href="#aboutMe">About Me</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contactForm">Let's Connect!</a>
+        <div>
+      </nav>
+      <section class='heroSection'>
+        <img 
+        class='profileImage'
+        src='./svg logo/myself.jpeg'/>
+        <div class='herosectionDetails'>
+          <h1>Priyank Kulkarni</h1>
+          <h3>Second Year IT Student</h3>
+        </div>
+      </section>
+      <section class='aboutMe' id='aboutMe'>
+        <h1>Who Am I</h1>
+        <p><h3>Hey Priyank Kulkarni here,A 19 year boy who loves coding,plays Table Tennis.A Second Year IT Student have knowledge about programming languages like C,C++,Java etc,Participated in many hackthons and have great leadership quality.I can adjust to any situation very easily.If any problem arise,I can solve the problem quickly with ease,Always interested in Social Projects and Web Development. </h3> </p>
+      </section>
+          
+      <section class='skillsAndProjects'>
+        <div class='skills' id='skills'>
+          <h1 class='cardHeading'>Skills</h1>
+          <img title='HTML' src='./svg logo/html-5-svgrepo-com.svg'>
+          <img title='CSS' src='./svg logo/css-3-logo-svgrepo-com.svg'>
+          <img title='C' src='./svg logo/c-svgrepo-com.svg'>
+          <img title='C++' src='./svg logo/c-plusplus-svgrepo-com.svg'>
+          <img title='Java' src='svg logo/java-svgrepo-com.svg'>
+        </div>
+        <div class='projects' id='projects'>
+          <h1 class='cardHeading'>Projects</h1>
+          <div class='projectContainer'>
+            <img src='./svg logo/file-svgrepo-com.svg'/>
+            <div class='projectDescription'>
+              <h4>Project Name</h4>
+              <p><i>Coming Soon...</i></p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class='contactForm' id='contactForm'>
+        <h1>Let's Connect!</h2>
+        <div class='formGroup'>
+          <label for='name'>Enter Full Name</label><br/>
+          <input type='text' id='name' placeholder='Full Name'/>
+        </div>
+        <div class='formGroup'>
+          <label for='email'>Email</label><br/>
+          <input type='text' id='email' placeholder='Email'/>
+        </div>
+        <div class='formGroup'>
+          <label for='message'>Message</label><br/>
+          <textarea placeholder="Send some message!" id="message" name="w3review" rows="4" cols="50"></textarea>
+        </div>
+        <button class='submitButton' onClick={submit()}>Connect</button>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
