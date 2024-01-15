@@ -45,7 +45,7 @@ body::before{
 
 body {
   font-family: "Poppins", sans-serif;
-  background-image: url('./svg logo/teahub.io-hd-wallpapers-for-website-3371471.jpg');
+  background-color: aqua;
   background-size: cover;
   background-position: center;
   display: flex;
